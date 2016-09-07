@@ -9,10 +9,87 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>beads.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+		<key>friday.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>gift1.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<true/>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>milk2.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
+		<key>namenum.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>7</integer>
+		</dict>
+		<key>ride.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>transform.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>5A53C1A11D7CDA17004CE8BC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5A53C1AF1D7CDB0A004CE8BC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5A53C1BA1D7CDB1F004CE8BC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5A53C1CA1D7CDDB0004CE8BC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5A53C1DB1D7D1C30004CE8BC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5A53C1E81D7D3748004CE8BC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5A53C1F51D7DFECC004CE8BC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5A53C2021D7E6E61004CE8BC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5AB911931D7FA21A00AD3EB8</key>
 		<dict>
 			<key>primary</key>
 			<true/>
