@@ -14,6 +14,11 @@
 			<key>orderHint</key>
 			<integer>4</integer>
 		</dict>
+		<key>dualpal.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>9</integer>
+		</dict>
 		<key>friday.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -35,6 +40,11 @@
 		<dict>
 			<key>orderHint</key>
 			<integer>7</integer>
+		</dict>
+		<key>palsquare.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>8</integer>
 		</dict>
 		<key>ride.xcscheme</key>
 		<dict>
@@ -90,6 +100,16 @@
 			<true/>
 		</dict>
 		<key>5AB911931D7FA21A00AD3EB8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5AB911A11D8084B500AD3EB8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5AB911AD1D8090D000AD3EB8</key>
 		<dict>
 			<key>primary</key>
 			<true/>
