@@ -9,10 +9,25 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>barn1.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>11</integer>
+		</dict>
 		<key>beads.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>4</integer>
+		</dict>
+		<key>combo.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>13</integer>
+		</dict>
+		<key>crypt1.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>12</integer>
 		</dict>
 		<key>dualpal.xcscheme</key>
 		<dict>
@@ -30,6 +45,11 @@
 			<true/>
 			<key>orderHint</key>
 			<integer>1</integer>
+		</dict>
+		<key>milk.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>10</integer>
 		</dict>
 		<key>milk2.xcscheme</key>
 		<dict>
@@ -110,6 +130,26 @@
 			<true/>
 		</dict>
 		<key>5AB911AD1D8090D000AD3EB8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5AB911B91D81178F00AD3EB8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5AB911C51D8266A800AD3EB8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5AB911D11D83259600AD3EB8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5AB911DD1D83842600AD3EB8</key>
 		<dict>
 			<key>primary</key>
 			<true/>
