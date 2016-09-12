@@ -4,15 +4,95 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Arithmetic Progressions.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>33</integer>
+		</dict>
+		<key>Barn Repair.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>28</integer>
+		</dict>
+		<key>Broken Necklace.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>21</integer>
+		</dict>
+		<key>Combination Lock.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>30</integer>
+		</dict>
+		<key>Dual Palindromes.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>26</integer>
+		</dict>
+		<key>Friday the Thirteenth.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>20</integer>
+		</dict>
+		<key>Greedy Gift Givers.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>19</integer>
+		</dict>
+		<key>Milking Cows.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>22</integer>
+		</dict>
+		<key>Mixing Milk.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>27</integer>
+		</dict>
 		<key>Mother's Milk.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>17</integer>
 		</dict>
+		<key>Name That Number.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>24</integer>
+		</dict>
+		<key>Palindromic Squares.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>25</integer>
+		</dict>
+		<key>Prime Cryptarithm.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>29</integer>
+		</dict>
+		<key>Ski Course Design.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>32</integer>
+		</dict>
+		<key>Transformations.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>23</integer>
+		</dict>
 		<key>USACO.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+		<key>Wormholes.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>31</integer>
+		</dict>
+		<key>Your Ride Is Here.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>18</integer>
 		</dict>
 		<key>ariprog.xcscheme</key>
 		<dict>
@@ -99,6 +179,86 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>5A26A7691D86746700CC8FE2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5A26A7781D86749800CC8FE2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5A26A7831D8674AB00CC8FE2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5A26A78E1D8674C100CC8FE2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5A26A7991D8674CD00CC8FE2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5A26A7A41D8674DE00CC8FE2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5A26A7AF1D8674EA00CC8FE2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5A26A7D31D8675E900CC8FE2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5A26A7DE1D8675F300CC8FE2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5A26A7E91D8675FE00CC8FE2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5A26A7F41D86760800CC8FE2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5A26A7FF1D86761300CC8FE2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5A26A80A1D86762000CC8FE2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5A26A8151D86762900CC8FE2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5A26A8201D86763100CC8FE2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5A26A82B1D86763D00CC8FE2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>5A53C1A11D7CDA17004CE8BC</key>
 		<dict>
 			<key>primary</key>
