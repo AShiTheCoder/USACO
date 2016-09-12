@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Mother's Milk.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>17</integer>
+		</dict>
 		<key>USACO.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -180,6 +185,11 @@
 			<true/>
 		</dict>
 		<key>5AB912011D850FF000AD3EB8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5AB9120D1D86609100AD3EB8</key>
 		<dict>
 			<key>primary</key>
 			<true/>
