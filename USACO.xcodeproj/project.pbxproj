@@ -24,7 +24,7 @@
 		5A26A84A1D8676A500CC8FE2 /* skidesign.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5A26A8481D8676A500CC8FE2 /* skidesign.cpp */; };
 		5A26A84D1D8676B100CC8FE2 /* ariprog.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5A26A84B1D8676B100CC8FE2 /* ariprog.cpp */; };
 		5A53C1A61D7CDA17004CE8BC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5A53C1A51D7CDA17004CE8BC /* main.cpp */; };
-		5AB912111D86609200AD3EB8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5AB912101D86609200AD3EB8 /* main.cpp */; };
+		5AB912111D86609200AD3EB8 /* milk3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5AB912101D86609200AD3EB8 /* milk3.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -393,6 +393,7 @@
 		5A26A8491D8676A500CC8FE2 /* skidesign.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = skidesign.txt; sourceTree = "<group>"; };
 		5A26A84B1D8676B100CC8FE2 /* ariprog.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ariprog.cpp; sourceTree = "<group>"; };
 		5A26A84C1D8676B100CC8FE2 /* ariprog.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ariprog.txt; sourceTree = "<group>"; };
+		5A26A84E1D8679FE00CC8FE2 /* milk3.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = milk3.txt; sourceTree = "<group>"; };
 		5A53C1A21D7CDA17004CE8BC /* USACO */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = USACO; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A53C1A51D7CDA17004CE8BC /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		5A53C1BB1D7CDB1F004CE8BC /* gift1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = gift1; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -412,7 +413,7 @@
 		5AB911F61D83CE0A00AD3EB8 /* skidesign */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = skidesign; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AB912021D850FF000AD3EB8 /* ariprog */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ariprog; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AB9120E1D86609100AD3EB8 /* Mother's Milk */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Mother's Milk"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5AB912101D86609200AD3EB8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		5AB912101D86609200AD3EB8 /* milk3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = milk3.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -886,7 +887,8 @@
 		5AB9120F1D86609200AD3EB8 /* Mother's Milk */ = {
 			isa = PBXGroup;
 			children = (
-				5AB912101D86609200AD3EB8 /* main.cpp */,
+				5A26A84E1D8679FE00CC8FE2 /* milk3.txt */,
+				5AB912101D86609200AD3EB8 /* milk3.cpp */,
 			);
 			path = "Mother's Milk";
 			sourceTree = "<group>";
@@ -1888,7 +1890,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5AB912111D86609200AD3EB8 /* main.cpp in Sources */,
+				5AB912111D86609200AD3EB8 /* milk3.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
