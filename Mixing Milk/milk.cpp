@@ -63,7 +63,7 @@ void quicksort(Farmer* a, int length) {
 int main(){
     int milk, numFarmers, currMilk, currPrice, cost = 0, currFarmer = 0;
     
-//    ifstream in ("/Users/AShi/Documents/Repos/USACO/milk/milk.in.txt");
+//    ifstream in ("/Users/AShi/Documents/Repos/USACO/Mixing Milk/milk.in.txt");
     ifstream in ("milk.in");
     ofstream out ("milk.out");
     

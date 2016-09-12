@@ -46,7 +46,7 @@ bool isPalindrome(int n, int base){
 int main(){
     int base, x;
     
-//    ifstream in ("/Users/AShi/Documents/Repos/USACO/palsquare/palsquare.in.txt");
+//    ifstream in ("/Users/AShi/Documents/Repos/USACO/Palindromic Squares/palsquare.in.txt");
     ifstream in ("palsquare.in");
     ofstream out ("palsquare.out");
     in >> base;

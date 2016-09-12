@@ -113,8 +113,8 @@ int main(){
     string s;
     bool good = false;
     
-//    ifstream in ("/Users/AShi/Documents/Repos/USACO/transform/transform.in.txt");
-//    ofstream out ("/Users/AShi/Documents/Repos/USACO/transform/transform.out.txt");
+//    ifstream in ("/Users/AShi/Documents/Repos/USACO/Transformations/transform.in.txt");
+//    ofstream out ("/Users/AShi/Documents/Repos/USACO/Transformations/transform.out.txt");
     ifstream in ("transform.in");
     ofstream out ("transform.out");
     in >> N;

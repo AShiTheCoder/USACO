@@ -59,7 +59,7 @@ void quicksort(int* a, int length){
 int main(){
     int numBoards, total, numStalls, temp, currBoards = 1, maxGap = 0, currStall = 0, bestBoard = 0, maxStart = 0, maxEnd = 0, length = 0;
     
-//    ifstream in ("/Users/AShi/Documents/Repos/USACO/barn1/barn1.txt");
+//    ifstream in ("/Users/AShi/Documents/Repos/USACO/Barn Repair/barn1.txt");
         ifstream in ("barn1.in");
         ofstream out ("barn1.out");
     

@@ -17,8 +17,8 @@ int main(){
     
     ifstream in ("milk2.in");
     ofstream out ("milk2.out");
-//    ifstream in ("/Users/AShi/Documents/Repos/USACO/milk2/milk2.in.txt");
-//    ofstream out ("/Users/AShi/Documents/Repos/USACO/milk2/milk2.out.txt");
+//    ifstream in ("/Users/AShi/Documents/Repos/USACO/Milking Cows/milk2.in.txt");
+//    ofstream out ("/Users/AShi/Documents/Repos/USACO/Milking Cows/milk2.out.txt");
 
     
     in >> num;

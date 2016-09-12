@@ -45,7 +45,7 @@ bool isPalindrome(int n, int base){
 int main(){
     int numQueries, minX, counter = 0, goodCount = 0;
     
-//    ifstream in ("/Users/AShi/Documents/Repos/USACO/dualpal/dualpal.in.txt");
+//    ifstream in ("/Users/AShi/Documents/Repos/USACO/Dual Palindromes/dualpal.in.txt");
         ifstream in ("dualpal.in");
         ofstream out ("dualpal.out");
     in >> numQueries >> minX;

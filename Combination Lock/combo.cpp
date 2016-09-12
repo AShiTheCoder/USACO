@@ -29,7 +29,7 @@ int main(){
     int lockSize, combo1[3], combo2[3], numCombos = 0, width, total = 0;
     Combo combos[125];
     
-//    ifstream in ("/Users/AShi/Documents/Repos/USACO/combo/combo.txt");
+//    ifstream in ("/Users/AShi/Documents/Repos/USACO/Combination Lock/combo.txt");
     ifstream in ("combo.in");
     ofstream out ("combo.out");
     

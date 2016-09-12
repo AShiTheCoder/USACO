@@ -39,7 +39,7 @@ int main(){
     int N, first, second, solutions = 0;
     int digits[10];
     
-//    ifstream in ("/Users/AShi/Documents/Repos/USACO/crypt1/crypt1.txt");
+//    ifstream in ("/Users/AShi/Documents/Repos/USACO/Prime Cryptarithm/crypt1.txt");
         ifstream in ("crypt1.in");
         ofstream out ("crypt1.out");
     

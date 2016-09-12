@@ -42,9 +42,9 @@ int main(){
     pad[9][1] = 'X';
     pad[9][2] = 'Y';
     
-//    ifstream dict ("/Users/AShi/Documents/Repos/USACO/namenum/dict.txt");
-//    ifstream in ("/Users/AShi/Documents/Repos/USACO/namenum/namenum.in.txt");
-//    ofstream out ("/Users/AShi/Documents/Repos/USACO/namenum/namenum.out.txt");
+//    ifstream dict ("/Users/AShi/Documents/Repos/USACO/Name That Number/dict.txt");
+//    ifstream in ("/Users/AShi/Documents/Repos/USACO/Name That Number/namenum.in.txt");
+//    ofstream out ("/Users/AShi/Documents/Repos/USACO/Name That Number/namenum.out.txt");
             ifstream in ("namenum.in");
             ofstream out ("namenum.out");
             ifstream dict ("dict.txt");

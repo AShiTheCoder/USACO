@@ -24,7 +24,7 @@ int main(){
     int length, biBound;
     bool found = false, good = false;
     
-    ifstream in ("/Users/AShi/Documents/Repos/USACO/ariprog/ariprog.txt");
+    ifstream in ("/Users/AShi/Documents/Repos/USACO/Arithmetic Progressions/ariprog.txt");
 //        ifstream in ("ariprog.in");
 //        ofstream out ("ariprog.out");
     in >> length >> biBound;
