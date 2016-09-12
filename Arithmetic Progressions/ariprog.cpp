@@ -24,9 +24,9 @@ int main(){
     int length, biBound;
     bool found = false, good = false;
     
-//    ifstream in ("/Users/AShi/Documents/Repos/USACO/ariprog/ariprog.txt");
-        ifstream in ("ariprog.in");
-        ofstream out ("ariprog.out");
+    ifstream in ("/Users/AShi/Documents/Repos/USACO/ariprog/ariprog.txt");
+//        ifstream in ("ariprog.in");
+//        ofstream out ("ariprog.out");
     in >> length >> biBound;
     in.close();
     init(biBound, biSquares);
@@ -43,7 +43,7 @@ int main(){
                     }
                 }
                 if (good){
-                    out << j << " " << i << "\n";
+                    cout << j << " " << i << "\n";
                     found = true;
                 }
             }
@@ -51,7 +51,7 @@ int main(){
     }
     
     if (!found){
-        out << "NONE\n";
+        cout << "NONE\n";
     }
     
     return 0;
