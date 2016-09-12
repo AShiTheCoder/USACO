@@ -21,6 +21,9 @@
 		5AB911C91D8266A800AD3EB8 /* barn1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5AB911C81D8266A800AD3EB8 /* barn1.cpp */; };
 		5AB911D51D83259600AD3EB8 /* crypt1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5AB911D41D83259600AD3EB8 /* crypt1.cpp */; };
 		5AB911E11D83842700AD3EB8 /* combo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5AB911E01D83842700AD3EB8 /* combo.cpp */; };
+		5AB911ED1D838EC000AD3EB8 /* wormhole.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5AB911EC1D838EC000AD3EB8 /* wormhole.cpp */; };
+		5AB911F91D83CE0A00AD3EB8 /* skidesign.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5AB911F81D83CE0A00AD3EB8 /* skidesign.cpp */; };
+		5AB912051D850FF000AD3EB8 /* ariprog.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5AB912041D850FF000AD3EB8 /* ariprog.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -150,6 +153,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		5AB911E81D838EC000AD3EB8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		5AB911F41D83CE0A00AD3EB8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		5AB912001D850FF000AD3EB8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -202,6 +232,15 @@
 		5AB911DE1D83842600AD3EB8 /* combo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = combo; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AB911E01D83842700AD3EB8 /* combo.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = combo.cpp; sourceTree = "<group>"; };
 		5AB911E51D8384A700AD3EB8 /* combo.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = combo.txt; sourceTree = "<group>"; };
+		5AB911EA1D838EC000AD3EB8 /* wormhole */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = wormhole; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AB911EC1D838EC000AD3EB8 /* wormhole.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = wormhole.cpp; sourceTree = "<group>"; };
+		5AB911F11D838F3400AD3EB8 /* wormhole.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = wormhole.txt; sourceTree = "<group>"; };
+		5AB911F61D83CE0A00AD3EB8 /* skidesign */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = skidesign; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AB911F81D83CE0A00AD3EB8 /* skidesign.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = skidesign.cpp; sourceTree = "<group>"; };
+		5AB911FD1D83CE3700AD3EB8 /* skidesign.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = skidesign.txt; sourceTree = "<group>"; };
+		5AB912021D850FF000AD3EB8 /* ariprog */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ariprog; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AB912041D850FF000AD3EB8 /* ariprog.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ariprog.cpp; sourceTree = "<group>"; };
+		5AB912091D85101500AD3EB8 /* ariprog.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ariprog.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -303,6 +342,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5AB911E71D838EC000AD3EB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AB911F31D83CE0A00AD3EB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AB911FF1D850FF000AD3EB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -323,6 +383,9 @@
 				5AB911C71D8266A800AD3EB8 /* barn1 */,
 				5AB911D31D83259600AD3EB8 /* crypt1 */,
 				5AB911DF1D83842600AD3EB8 /* combo */,
+				5AB911EB1D838EC000AD3EB8 /* wormhole */,
+				5AB911F71D83CE0A00AD3EB8 /* skidesign */,
+				5AB912031D850FF000AD3EB8 /* ariprog */,
 				5A53C1A31D7CDA17004CE8BC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -344,6 +407,9 @@
 				5AB911C61D8266A800AD3EB8 /* barn1 */,
 				5AB911D21D83259600AD3EB8 /* crypt1 */,
 				5AB911DE1D83842600AD3EB8 /* combo */,
+				5AB911EA1D838EC000AD3EB8 /* wormhole */,
+				5AB911F61D83CE0A00AD3EB8 /* skidesign */,
+				5AB912021D850FF000AD3EB8 /* ariprog */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -479,6 +545,33 @@
 				5AB911E01D83842700AD3EB8 /* combo.cpp */,
 			);
 			path = combo;
+			sourceTree = "<group>";
+		};
+		5AB911EB1D838EC000AD3EB8 /* wormhole */ = {
+			isa = PBXGroup;
+			children = (
+				5AB911F11D838F3400AD3EB8 /* wormhole.txt */,
+				5AB911EC1D838EC000AD3EB8 /* wormhole.cpp */,
+			);
+			path = wormhole;
+			sourceTree = "<group>";
+		};
+		5AB911F71D83CE0A00AD3EB8 /* skidesign */ = {
+			isa = PBXGroup;
+			children = (
+				5AB911FD1D83CE3700AD3EB8 /* skidesign.txt */,
+				5AB911F81D83CE0A00AD3EB8 /* skidesign.cpp */,
+			);
+			path = skidesign;
+			sourceTree = "<group>";
+		};
+		5AB912031D850FF000AD3EB8 /* ariprog */ = {
+			isa = PBXGroup;
+			children = (
+				5AB912091D85101500AD3EB8 /* ariprog.txt */,
+				5AB912041D850FF000AD3EB8 /* ariprog.cpp */,
+			);
+			path = ariprog;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -722,6 +815,57 @@
 			productReference = 5AB911DE1D83842600AD3EB8 /* combo */;
 			productType = "com.apple.product-type.tool";
 		};
+		5AB911E91D838EC000AD3EB8 /* wormhole */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AB911EE1D838EC000AD3EB8 /* Build configuration list for PBXNativeTarget "wormhole" */;
+			buildPhases = (
+				5AB911E61D838EC000AD3EB8 /* Sources */,
+				5AB911E71D838EC000AD3EB8 /* Frameworks */,
+				5AB911E81D838EC000AD3EB8 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = wormhole;
+			productName = wormhole;
+			productReference = 5AB911EA1D838EC000AD3EB8 /* wormhole */;
+			productType = "com.apple.product-type.tool";
+		};
+		5AB911F51D83CE0A00AD3EB8 /* skidesign */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AB911FA1D83CE0A00AD3EB8 /* Build configuration list for PBXNativeTarget "skidesign" */;
+			buildPhases = (
+				5AB911F21D83CE0A00AD3EB8 /* Sources */,
+				5AB911F31D83CE0A00AD3EB8 /* Frameworks */,
+				5AB911F41D83CE0A00AD3EB8 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = skidesign;
+			productName = skidesign;
+			productReference = 5AB911F61D83CE0A00AD3EB8 /* skidesign */;
+			productType = "com.apple.product-type.tool";
+		};
+		5AB912011D850FF000AD3EB8 /* ariprog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AB912061D850FF000AD3EB8 /* Build configuration list for PBXNativeTarget "ariprog" */;
+			buildPhases = (
+				5AB911FE1D850FF000AD3EB8 /* Sources */,
+				5AB911FF1D850FF000AD3EB8 /* Frameworks */,
+				5AB912001D850FF000AD3EB8 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ariprog;
+			productName = ariprog;
+			productReference = 5AB912021D850FF000AD3EB8 /* ariprog */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -773,6 +917,15 @@
 					5AB911DD1D83842600AD3EB8 = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
+					5AB911E91D838EC000AD3EB8 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					5AB911F51D83CE0A00AD3EB8 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					5AB912011D850FF000AD3EB8 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
 				};
 			};
 			buildConfigurationList = 5A53C19D1D7CDA17004CE8BC /* Build configuration list for PBXProject "USACO" */;
@@ -801,6 +954,9 @@
 				5AB911C51D8266A800AD3EB8 /* barn1 */,
 				5AB911D11D83259600AD3EB8 /* crypt1 */,
 				5AB911DD1D83842600AD3EB8 /* combo */,
+				5AB911E91D838EC000AD3EB8 /* wormhole */,
+				5AB911F51D83CE0A00AD3EB8 /* skidesign */,
+				5AB912011D850FF000AD3EB8 /* ariprog */,
 			);
 		};
 /* End PBXProject section */
@@ -915,6 +1071,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				5AB911E11D83842700AD3EB8 /* combo.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AB911E61D838EC000AD3EB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AB911ED1D838EC000AD3EB8 /* wormhole.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AB911F21D83CE0A00AD3EB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AB911F91D83CE0A00AD3EB8 /* skidesign.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AB911FE1D850FF000AD3EB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AB912051D850FF000AD3EB8 /* ariprog.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1198,6 +1378,48 @@
 			};
 			name = Release;
 		};
+		5AB911EF1D838EC000AD3EB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5AB911F01D838EC000AD3EB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5AB911FB1D83CE0A00AD3EB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5AB911FC1D83CE0A00AD3EB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5AB912071D850FF000AD3EB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5AB912081D850FF000AD3EB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1326,6 +1548,30 @@
 			buildConfigurations = (
 				5AB911E31D83842700AD3EB8 /* Debug */,
 				5AB911E41D83842700AD3EB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5AB911EE1D838EC000AD3EB8 /* Build configuration list for PBXNativeTarget "wormhole" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AB911EF1D838EC000AD3EB8 /* Debug */,
+				5AB911F01D838EC000AD3EB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5AB911FA1D83CE0A00AD3EB8 /* Build configuration list for PBXNativeTarget "skidesign" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AB911FB1D83CE0A00AD3EB8 /* Debug */,
+				5AB911FC1D83CE0A00AD3EB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5AB912061D850FF000AD3EB8 /* Build configuration list for PBXNativeTarget "ariprog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AB912071D850FF000AD3EB8 /* Debug */,
+				5AB912081D850FF000AD3EB8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

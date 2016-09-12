@@ -9,6 +9,11 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>ariprog.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>16</integer>
+		</dict>
 		<key>barn1.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -71,10 +76,20 @@
 			<key>orderHint</key>
 			<integer>2</integer>
 		</dict>
+		<key>skidesign.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>15</integer>
+		</dict>
 		<key>transform.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>6</integer>
+		</dict>
+		<key>wormhole.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>14</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
@@ -150,6 +165,21 @@
 			<true/>
 		</dict>
 		<key>5AB911DD1D83842600AD3EB8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5AB911E91D838EC000AD3EB8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5AB911F51D83CE0A00AD3EB8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5AB912011D850FF000AD3EB8</key>
 		<dict>
 			<key>primary</key>
 			<true/>
