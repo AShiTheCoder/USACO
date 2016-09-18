@@ -23,6 +23,7 @@
 		5A26A8471D86769900CC8FE2 /* wormhole.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5A26A8451D86769900CC8FE2 /* wormhole.cpp */; };
 		5A26A84A1D8676A500CC8FE2 /* skidesign.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5A26A8481D8676A500CC8FE2 /* skidesign.cpp */; };
 		5A26A84D1D8676B100CC8FE2 /* ariprog.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5A26A84B1D8676B100CC8FE2 /* ariprog.cpp */; };
+		5A26A8641D886BC300CC8FE2 /* numtri.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5A26A8631D886BC300CC8FE2 /* numtri.cpp */; };
 		5A53C1A61D7CDA17004CE8BC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5A53C1A51D7CDA17004CE8BC /* main.cpp */; };
 		5AB912111D86609200AD3EB8 /* milk3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5AB912101D86609200AD3EB8 /* milk3.cpp */; };
 /* End PBXBuildFile section */
@@ -172,6 +173,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		5A26A85F1D886BC200CC8FE2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		5A53C1A01D7CDA17004CE8BC /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -250,6 +260,9 @@
 		5A26A84B1D8676B100CC8FE2 /* ariprog.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ariprog.cpp; sourceTree = "<group>"; };
 		5A26A84C1D8676B100CC8FE2 /* ariprog.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ariprog.txt; sourceTree = "<group>"; };
 		5A26A84E1D8679FE00CC8FE2 /* milk3.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = milk3.txt; sourceTree = "<group>"; };
+		5A26A8611D886BC200CC8FE2 /* Number Triangles */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Number Triangles"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A26A8631D886BC300CC8FE2 /* numtri.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = numtri.cpp; sourceTree = "<group>"; };
+		5A26A8681D886C3B00CC8FE2 /* numtri.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = numtri.txt; sourceTree = "<group>"; };
 		5A53C1A21D7CDA17004CE8BC /* USACO */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = USACO; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A53C1A51D7CDA17004CE8BC /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		5AB9120E1D86609100AD3EB8 /* Mother's Milk */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Mother's Milk"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -363,6 +376,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		5A26A8291D86763D00CC8FE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A26A85E1D886BC200CC8FE2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -538,6 +558,15 @@
 			path = "Arithmetic Progressions";
 			sourceTree = "<group>";
 		};
+		5A26A8621D886BC300CC8FE2 /* Number Triangles */ = {
+			isa = PBXGroup;
+			children = (
+				5A26A8681D886C3B00CC8FE2 /* numtri.txt */,
+				5A26A8631D886BC300CC8FE2 /* numtri.cpp */,
+			);
+			path = "Number Triangles";
+			sourceTree = "<group>";
+		};
 		5A53C1991D7CDA17004CE8BC = {
 			isa = PBXGroup;
 			children = (
@@ -559,6 +588,7 @@
 				5A26A8221D86763100CC8FE2 /* Ski Course Design */,
 				5A26A82D1D86763D00CC8FE2 /* Arithmetic Progressions */,
 				5AB9120F1D86609200AD3EB8 /* Mother's Milk */,
+				5A26A8621D886BC300CC8FE2 /* Number Triangles */,
 				5A53C1A31D7CDA17004CE8BC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -584,6 +614,7 @@
 				5A26A8161D86762900CC8FE2 /* Wormholes */,
 				5A26A8211D86763100CC8FE2 /* Ski Course Design */,
 				5A26A82C1D86763D00CC8FE2 /* Arithmetic Progressions */,
+				5A26A8611D886BC200CC8FE2 /* Number Triangles */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -880,6 +911,23 @@
 			productReference = 5A26A82C1D86763D00CC8FE2 /* Arithmetic Progressions */;
 			productType = "com.apple.product-type.tool";
 		};
+		5A26A8601D886BC200CC8FE2 /* Number Triangles */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A26A8651D886BC300CC8FE2 /* Build configuration list for PBXNativeTarget "Number Triangles" */;
+			buildPhases = (
+				5A26A85D1D886BC200CC8FE2 /* Sources */,
+				5A26A85E1D886BC200CC8FE2 /* Frameworks */,
+				5A26A85F1D886BC200CC8FE2 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Number Triangles";
+			productName = "Number Triangles";
+			productReference = 5A26A8611D886BC200CC8FE2 /* Number Triangles */;
+			productType = "com.apple.product-type.tool";
+		};
 		5A53C1A11D7CDA17004CE8BC /* USACO */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5A53C1A91D7CDA17004CE8BC /* Build configuration list for PBXNativeTarget "USACO" */;
@@ -971,6 +1019,9 @@
 					5A26A82B1D86763D00CC8FE2 = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
+					5A26A8601D886BC200CC8FE2 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
 					5A53C1A11D7CDA17004CE8BC = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
@@ -1009,6 +1060,7 @@
 				5A26A8201D86763100CC8FE2 /* Ski Course Design */,
 				5A26A82B1D86763D00CC8FE2 /* Arithmetic Progressions */,
 				5AB9120D1D86609100AD3EB8 /* Mother's Milk */,
+				5A26A8601D886BC200CC8FE2 /* Number Triangles */,
 			);
 		};
 /* End PBXProject section */
@@ -1139,6 +1191,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				5A26A84D1D8676B100CC8FE2 /* ariprog.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A26A85D1D886BC200CC8FE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A26A8641D886BC300CC8FE2 /* numtri.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1385,6 +1445,20 @@
 			};
 			name = Release;
 		};
+		5A26A8661D886BC300CC8FE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5A26A8671D886BC300CC8FE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		5A53C1A71D7CDA17004CE8BC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1622,6 +1696,14 @@
 			buildConfigurations = (
 				5A26A8311D86763D00CC8FE2 /* Debug */,
 				5A26A8321D86763D00CC8FE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5A26A8651D886BC300CC8FE2 /* Build configuration list for PBXNativeTarget "Number Triangles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A26A8661D886BC300CC8FE2 /* Debug */,
+				5A26A8671D886BC300CC8FE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

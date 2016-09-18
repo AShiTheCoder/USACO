@@ -81,6 +81,11 @@
 			<key>orderHint</key>
 			<integer>7</integer>
 		</dict>
+		<key>Number Triangles.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>18</integer>
+		</dict>
 		<key>Palindromic Squares.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -209,6 +214,16 @@
 			<true/>
 		</dict>
 		<key>5A26A82B1D86763D00CC8FE2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5A26A8551D886AF000CC8FE2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5A26A8601D886BC200CC8FE2</key>
 		<dict>
 			<key>primary</key>
 			<true/>
