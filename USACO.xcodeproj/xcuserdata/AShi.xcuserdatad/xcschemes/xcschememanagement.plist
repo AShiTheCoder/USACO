@@ -112,6 +112,11 @@
 			<key>orderHint</key>
 			<integer>15</integer>
 		</dict>
+		<key>Superprime Rib.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>20</integer>
+		</dict>
 		<key>Transformations.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -329,6 +334,11 @@
 			<true/>
 		</dict>
 		<key>5AD8E35C1D8F41F200D6394E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5AD8E3681D9224CE00D6394E</key>
 		<dict>
 			<key>primary</key>
 			<true/>

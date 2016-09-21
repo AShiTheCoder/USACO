@@ -27,6 +27,7 @@
 		5A53C1A61D7CDA17004CE8BC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5A53C1A51D7CDA17004CE8BC /* main.cpp */; };
 		5AB912111D86609200AD3EB8 /* milk3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5AB912101D86609200AD3EB8 /* milk3.cpp */; };
 		5AD8E3601D8F41F300D6394E /* pprime.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5AD8E35F1D8F41F300D6394E /* pprime.cpp */; };
+		5AD8E36C1D9224CF00D6394E /* sprime.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5AD8E36B1D9224CF00D6394E /* sprime.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -210,6 +211,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		5AD8E3671D9224CE00D6394E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -280,6 +290,9 @@
 		5AD8E35D1D8F41F300D6394E /* Prime Palindromes */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Prime Palindromes"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AD8E35F1D8F41F300D6394E /* pprime.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = pprime.cpp; sourceTree = "<group>"; };
 		5AD8E3641D8F423200D6394E /* pprime.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pprime.txt; sourceTree = "<group>"; };
+		5AD8E3691D9224CE00D6394E /* Superprime Rib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Superprime Rib"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AD8E36B1D9224CF00D6394E /* sprime.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = sprime.cpp; sourceTree = "<group>"; };
+		5AD8E3701D92250300D6394E /* sprime.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sprime.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -417,6 +430,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		5AD8E35A1D8F41F200D6394E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AD8E3661D9224CE00D6394E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -610,6 +630,7 @@
 				5AB9120F1D86609200AD3EB8 /* Mother's Milk */,
 				5A26A8621D886BC300CC8FE2 /* Number Triangles */,
 				5AD8E35E1D8F41F300D6394E /* Prime Palindromes */,
+				5AD8E36A1D9224CF00D6394E /* Superprime Rib */,
 				5A53C1A31D7CDA17004CE8BC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -637,6 +658,7 @@
 				5A26A82C1D86763D00CC8FE2 /* Arithmetic Progressions */,
 				5A26A8611D886BC200CC8FE2 /* Number Triangles */,
 				5AD8E35D1D8F41F300D6394E /* Prime Palindromes */,
+				5AD8E3691D9224CE00D6394E /* Superprime Rib */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -665,6 +687,15 @@
 				5AD8E35F1D8F41F300D6394E /* pprime.cpp */,
 			);
 			path = "Prime Palindromes";
+			sourceTree = "<group>";
+		};
+		5AD8E36A1D9224CF00D6394E /* Superprime Rib */ = {
+			isa = PBXGroup;
+			children = (
+				5AD8E3701D92250300D6394E /* sprime.txt */,
+				5AD8E36B1D9224CF00D6394E /* sprime.cpp */,
+			);
+			path = "Superprime Rib";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1010,6 +1041,23 @@
 			productReference = 5AD8E35D1D8F41F300D6394E /* Prime Palindromes */;
 			productType = "com.apple.product-type.tool";
 		};
+		5AD8E3681D9224CE00D6394E /* Superprime Rib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AD8E36D1D9224CF00D6394E /* Build configuration list for PBXNativeTarget "Superprime Rib" */;
+			buildPhases = (
+				5AD8E3651D9224CE00D6394E /* Sources */,
+				5AD8E3661D9224CE00D6394E /* Frameworks */,
+				5AD8E3671D9224CE00D6394E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Superprime Rib";
+			productName = "Superprime Rib";
+			productReference = 5AD8E3691D9224CE00D6394E /* Superprime Rib */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -1080,6 +1128,10 @@
 						CreatedOnToolsVersion = 8.0;
 						ProvisioningStyle = Automatic;
 					};
+					5AD8E3681D9224CE00D6394E = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = 5A53C19D1D7CDA17004CE8BC /* Build configuration list for PBXProject "USACO" */;
@@ -1114,6 +1166,7 @@
 				5AB9120D1D86609100AD3EB8 /* Mother's Milk */,
 				5A26A8601D886BC200CC8FE2 /* Number Triangles */,
 				5AD8E35C1D8F41F200D6394E /* Prime Palindromes */,
+				5AD8E3681D9224CE00D6394E /* Superprime Rib */,
 			);
 		};
 /* End PBXProject section */
@@ -1276,6 +1329,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				5AD8E3601D8F41F300D6394E /* pprime.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AD8E3651D9224CE00D6394E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AD8E36C1D9224CF00D6394E /* sprime.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1649,6 +1710,26 @@
 			};
 			name = Release;
 		};
+		5AD8E36E1D9224CF00D6394E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5AD8E36F1D9224CF00D6394E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1837,6 +1918,14 @@
 			buildConfigurations = (
 				5AD8E3611D8F41F300D6394E /* Debug */,
 				5AD8E3621D8F41F300D6394E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5AD8E36D1D9224CF00D6394E /* Build configuration list for PBXNativeTarget "Superprime Rib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AD8E36E1D9224CF00D6394E /* Debug */,
+				5AD8E36F1D9224CF00D6394E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
