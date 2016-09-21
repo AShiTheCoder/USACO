@@ -100,6 +100,11 @@
 			<key>orderHint</key>
 			<integer>12</integer>
 		</dict>
+		<key>Prime Palindromes.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>19</integer>
+		</dict>
 		<key>Ski Course Design.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -319,6 +324,11 @@
 			<true/>
 		</dict>
 		<key>5AB9120D1D86609100AD3EB8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5AD8E35C1D8F41F200D6394E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
