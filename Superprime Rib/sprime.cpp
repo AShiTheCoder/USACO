@@ -20,7 +20,7 @@ bool isPrime(int num){
 
 void iterate(int current, int count, int max, ofstream &o){
     if (count == max){
-        o << current << "\n";
+        cout << current << "\n";
     } else {
         for (int i = 0; i < 10; i++){
             if (isPrime(current * 10 + i)){
@@ -33,8 +33,8 @@ void iterate(int current, int count, int max, ofstream &o){
 int main(){
     int primes[4] = {2, 3, 5, 7}, len = 0;
     
-//    ifstream in ("/Users/AShi/Documents/Repos/USACO/Superprime Rib/sprime.txt");
-    ifstream in ("sprime.in");
+    ifstream in ("/Users/AShi/Documents/Repos/USACO/Superprime Rib/sprime.txt");
+//    ifstream in ("sprime.in");
     ofstream out ("sprime.out");
     in >> len;
     in.close();

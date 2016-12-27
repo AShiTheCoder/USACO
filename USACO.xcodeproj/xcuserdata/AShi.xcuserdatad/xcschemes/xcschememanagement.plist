@@ -25,6 +25,21 @@
 			<key>orderHint</key>
 			<integer>4</integer>
 		</dict>
+		<key>CONTEST1-1.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>22</integer>
+		</dict>
+		<key>CONTEST1-2.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>23</integer>
+		</dict>
+		<key>CONTEST1-3.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>24</integer>
+		</dict>
 		<key>Combination Lock.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -117,6 +132,11 @@
 			<key>orderHint</key>
 			<integer>20</integer>
 		</dict>
+		<key>The Castle.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>21</integer>
+		</dict>
 		<key>Transformations.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -138,6 +158,11 @@
 			<key>orderHint</key>
 			<integer>14</integer>
 		</dict>
+		<key>YaoEggs.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>25</integer>
+		</dict>
 		<key>Your Ride Is Here.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -148,6 +173,26 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>5A231CBC1E086C6A00F20FC5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5A231CC81E086FDC00F20FC5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5A231CD41E0875FC00F20FC5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5A231CE01E0EFD9800F20FC5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>5A26A7691D86746700CC8FE2</key>
 		<dict>
 			<key>primary</key>
@@ -339,6 +384,11 @@
 			<true/>
 		</dict>
 		<key>5AD8E3681D9224CE00D6394E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5AD8E3741D93A84F00D6394E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
