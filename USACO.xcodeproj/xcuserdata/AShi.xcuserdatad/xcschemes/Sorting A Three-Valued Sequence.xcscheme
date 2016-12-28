@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "5AB703911E132E28008188A4"
-               BuildableName = "frac1"
-               BlueprintName = "frac1"
+               BlueprintIdentifier = "5AB703B91E135D95008188A4"
+               BuildableName = "Sorting A Three-Valued Sequence"
+               BlueprintName = "Sorting A Three-Valued Sequence"
                ReferencedContainer = "container:USACO.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -32,9 +32,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5AB703911E132E28008188A4"
-            BuildableName = "frac1"
-            BlueprintName = "frac1"
+            BlueprintIdentifier = "5AB703B91E135D95008188A4"
+            BuildableName = "Sorting A Three-Valued Sequence"
+            BlueprintName = "Sorting A Three-Valued Sequence"
             ReferencedContainer = "container:USACO.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -55,9 +55,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5AB703911E132E28008188A4"
-            BuildableName = "frac1"
-            BlueprintName = "frac1"
+            BlueprintIdentifier = "5AB703B91E135D95008188A4"
+            BuildableName = "Sorting A Three-Valued Sequence"
+            BlueprintName = "Sorting A Three-Valued Sequence"
             ReferencedContainer = "container:USACO.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -74,9 +74,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5AB703911E132E28008188A4"
-            BuildableName = "frac1"
-            BlueprintName = "frac1"
+            BlueprintIdentifier = "5AB703B91E135D95008188A4"
+            BuildableName = "Sorting A Three-Valued Sequence"
+            BlueprintName = "Sorting A Three-Valued Sequence"
             ReferencedContainer = "container:USACO.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

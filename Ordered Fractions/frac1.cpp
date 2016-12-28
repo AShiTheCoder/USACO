@@ -70,7 +70,7 @@ int main() {
     int N, count = 0;
     bool found;
     
-    ifstream in ("/Users/AShi/Documents/Repos/USACO/frac1/frac1.txt");
+    ifstream in ("/Users/AShi/Documents/Repos/USACO/Ordered Fractions/frac1.txt");
 //    ifstream in ("frac1.in");
     ofstream out ("frac1.out");
     in >> N;
