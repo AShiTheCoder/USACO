@@ -31,6 +31,8 @@
 		5A53C1A61D7CDA17004CE8BC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5A53C1A51D7CDA17004CE8BC /* main.cpp */; };
 		5AB703B51E135D0C008188A4 /* frac1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5AB703B41E135D0C008188A4 /* frac1.cpp */; };
 		5AB703C31E135DC4008188A4 /* sort3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5AB703C21E135DC4008188A4 /* sort3.cpp */; };
+		5AB703CB1E13631C008188A4 /* holstein.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5AB703CA1E13631C008188A4 /* holstein.cpp */; };
+		5AB703D71E163EAB008188A4 /* hamming.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5AB703D61E163EAB008188A4 /* hamming.cpp */; };
 		5AB912111D86609200AD3EB8 /* milk3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5AB912101D86609200AD3EB8 /* milk3.cpp */; };
 		5AD8E3601D8F41F300D6394E /* pprime.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5AD8E35F1D8F41F300D6394E /* pprime.cpp */; };
 		5AD8E36C1D9224CF00D6394E /* sprime.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5AD8E36B1D9224CF00D6394E /* sprime.cpp */; };
@@ -272,6 +274,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		5AB703C61E13631C008188A4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		5AB703D21E163EAA008188A4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		5AB9120C1D86609100AD3EB8 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -392,6 +412,12 @@
 		5AB703BA1E135D95008188A4 /* Sorting A Three-Valued Sequence */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Sorting A Three-Valued Sequence"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AB703C11E135DC4008188A4 /* sort3.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sort3.txt; sourceTree = "<group>"; };
 		5AB703C21E135DC4008188A4 /* sort3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sort3.cpp; sourceTree = "<group>"; };
+		5AB703C81E13631C008188A4 /* Healthy Holsteins */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Healthy Holsteins"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AB703CA1E13631C008188A4 /* holstein.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = holstein.cpp; sourceTree = "<group>"; };
+		5AB703CF1E136347008188A4 /* holstein.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = holstein.txt; sourceTree = "<group>"; };
+		5AB703D41E163EAA008188A4 /* Hamming Codes */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Hamming Codes"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AB703D61E163EAB008188A4 /* hamming.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = hamming.cpp; sourceTree = "<group>"; };
+		5AB703DB1E163ED3008188A4 /* hamming.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = hamming.txt; sourceTree = "<group>"; };
 		5AB9120E1D86609100AD3EB8 /* Mother's Milk */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Mother's Milk"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AB912101D86609200AD3EB8 /* milk3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = milk3.cpp; sourceTree = "<group>"; };
 		5AD8E35D1D8F41F300D6394E /* Prime Palindromes */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Prime Palindromes"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -582,6 +608,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		5AB703B71E135D95008188A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AB703C51E13631C008188A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AB703D11E163EAA008188A4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -846,6 +886,8 @@
 				5A231CE21E0EFD9800F20FC5 /* YaoEggs */,
 				5AB703AB1E135C8C008188A4 /* Ordered Fractions */,
 				5AB703BB1E135D95008188A4 /* Sorting A Three-Valued Sequence */,
+				5AB703C91E13631C008188A4 /* Healthy Holsteins */,
+				5AB703D51E163EAA008188A4 /* Hamming Codes */,
 				5A53C1A31D7CDA17004CE8BC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -883,6 +925,8 @@
 				5AB7039E1E13444F008188A4 /* sort3 */,
 				5AB703AA1E135C8C008188A4 /* Ordered Fractions */,
 				5AB703BA1E135D95008188A4 /* Sorting A Three-Valued Sequence */,
+				5AB703C81E13631C008188A4 /* Healthy Holsteins */,
+				5AB703D41E163EAA008188A4 /* Hamming Codes */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -911,6 +955,24 @@
 				5AB703C21E135DC4008188A4 /* sort3.cpp */,
 			);
 			path = "Sorting A Three-Valued Sequence";
+			sourceTree = "<group>";
+		};
+		5AB703C91E13631C008188A4 /* Healthy Holsteins */ = {
+			isa = PBXGroup;
+			children = (
+				5AB703CF1E136347008188A4 /* holstein.txt */,
+				5AB703CA1E13631C008188A4 /* holstein.cpp */,
+			);
+			path = "Healthy Holsteins";
+			sourceTree = "<group>";
+		};
+		5AB703D51E163EAA008188A4 /* Hamming Codes */ = {
+			isa = PBXGroup;
+			children = (
+				5AB703DB1E163ED3008188A4 /* hamming.txt */,
+				5AB703D61E163EAB008188A4 /* hamming.cpp */,
+			);
+			path = "Hamming Codes";
 			sourceTree = "<group>";
 		};
 		5AB9120F1D86609200AD3EB8 /* Mother's Milk */ = {
@@ -1394,6 +1456,40 @@
 			productReference = 5AB703BA1E135D95008188A4 /* Sorting A Three-Valued Sequence */;
 			productType = "com.apple.product-type.tool";
 		};
+		5AB703C71E13631C008188A4 /* Healthy Holsteins */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AB703CC1E13631C008188A4 /* Build configuration list for PBXNativeTarget "Healthy Holsteins" */;
+			buildPhases = (
+				5AB703C41E13631C008188A4 /* Sources */,
+				5AB703C51E13631C008188A4 /* Frameworks */,
+				5AB703C61E13631C008188A4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Healthy Holsteins";
+			productName = "Healthy Holsteins";
+			productReference = 5AB703C81E13631C008188A4 /* Healthy Holsteins */;
+			productType = "com.apple.product-type.tool";
+		};
+		5AB703D31E163EAA008188A4 /* Hamming Codes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AB703D81E163EAB008188A4 /* Build configuration list for PBXNativeTarget "Hamming Codes" */;
+			buildPhases = (
+				5AB703D01E163EAA008188A4 /* Sources */,
+				5AB703D11E163EAA008188A4 /* Frameworks */,
+				5AB703D21E163EAA008188A4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hamming Codes";
+			productName = "Hamming Codes";
+			productReference = 5AB703D41E163EAA008188A4 /* Hamming Codes */;
+			productType = "com.apple.product-type.tool";
+		};
 		5AB9120D1D86609100AD3EB8 /* Mother's Milk */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5AB912121D86609300AD3EB8 /* Build configuration list for PBXNativeTarget "Mother's Milk" */;
@@ -1557,6 +1653,14 @@
 						CreatedOnToolsVersion = 8.2;
 						ProvisioningStyle = Automatic;
 					};
+					5AB703C71E13631C008188A4 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+					5AB703D31E163EAA008188A4 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
 					5AB9120D1D86609100AD3EB8 = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
@@ -1616,6 +1720,8 @@
 				5AB7039D1E13444F008188A4 /* sort3 */,
 				5AB703A91E135C8C008188A4 /* Ordered Fractions */,
 				5AB703B91E135D95008188A4 /* Sorting A Three-Valued Sequence */,
+				5AB703C71E13631C008188A4 /* Healthy Holsteins */,
+				5AB703D31E163EAA008188A4 /* Hamming Codes */,
 			);
 		};
 /* End PBXProject section */
@@ -1824,6 +1930,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				5AB703C31E135DC4008188A4 /* sort3.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AB703C41E13631C008188A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AB703CB1E13631C008188A4 /* holstein.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AB703D01E163EAA008188A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AB703D71E163EAB008188A4 /* hamming.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2371,6 +2493,50 @@
 			};
 			name = Release;
 		};
+		5AB703CD1E13631C008188A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5AB703CE1E13631C008188A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5AB703D91E163EAB008188A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5AB703DA1E163EAB008188A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		5AB912131D86609300AD3EB8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -2684,6 +2850,22 @@
 			buildConfigurations = (
 				5AB703BF1E135D95008188A4 /* Debug */,
 				5AB703C01E135D95008188A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5AB703CC1E13631C008188A4 /* Build configuration list for PBXNativeTarget "Healthy Holsteins" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AB703CD1E13631C008188A4 /* Debug */,
+				5AB703CE1E13631C008188A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5AB703D81E163EAB008188A4 /* Build configuration list for PBXNativeTarget "Hamming Codes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AB703D91E163EAB008188A4 /* Debug */,
+				5AB703DA1E163EAB008188A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
