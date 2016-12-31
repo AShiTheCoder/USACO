@@ -123,6 +123,16 @@
 			<key>orderHint</key>
 			<integer>8</integer>
 		</dict>
+		<key>Party Lamps.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>33</integer>
+		</dict>
+		<key>Preface Numbering.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>30</integer>
+		</dict>
 		<key>Prime Cryptarithm.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -135,6 +145,11 @@
 			<key>orderHint</key>
 			<integer>19</integer>
 		</dict>
+		<key>Runaround Numbers.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>32</integer>
+		</dict>
 		<key>Ski Course Design.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -146,6 +161,11 @@
 		<dict>
 			<key>orderHint</key>
 			<integer>27</integer>
+		</dict>
+		<key>Subset Sums.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>31</integer>
 		</dict>
 		<key>Superprime Rib.xcscheme</key>
 		<dict>
@@ -369,6 +389,26 @@
 			<true/>
 		</dict>
 		<key>5AB703D31E163EAA008188A4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5AB703DF1E16F1D5008188A4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5AB703EB1E16F8DF008188A4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5AB703F71E1729D2008188A4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5AB704031E1739FD008188A4</key>
 		<dict>
 			<key>primary</key>
 			<true/>
