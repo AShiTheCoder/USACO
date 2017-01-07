@@ -47,6 +47,16 @@
 			<key>orderHint</key>
 			<integer>13</integer>
 		</dict>
+		<key>Controlling Companies.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>38</integer>
+		</dict>
+		<key>Cow Pedigrees.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>35</integer>
+		</dict>
 		<key>Dual Palindromes.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -78,6 +88,11 @@
 			<key>orderHint</key>
 			<integer>28</integer>
 		</dict>
+		<key>Longest Prefix.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>34</integer>
+		</dict>
 		<key>Milking Cows.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -91,6 +106,11 @@
 			<true/>
 			<key>orderHint</key>
 			<integer>10</integer>
+		</dict>
+		<key>Money Systems.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>37</integer>
 		</dict>
 		<key>Mother's Milk.xcscheme</key>
 		<dict>
@@ -209,6 +229,11 @@
 			<true/>
 			<key>orderHint</key>
 			<integer>1</integer>
+		</dict>
+		<key>Zero Sum.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>36</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
@@ -363,6 +388,11 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>5A6DCC6A1E1B7FCC000E70A3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>5AB703911E132E28008188A4</key>
 		<dict>
 			<key>primary</key>
@@ -409,6 +439,26 @@
 			<true/>
 		</dict>
 		<key>5AB704031E1739FD008188A4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5AB7040F1E17501A008188A4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5AB7041B1E186F1C008188A4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5AB704271E19AA62008188A4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5AB704331E19B802008188A4</key>
 		<dict>
 			<key>primary</key>
 			<true/>
