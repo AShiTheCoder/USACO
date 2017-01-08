@@ -30,6 +30,10 @@
 		5A26A8641D886BC300CC8FE2 /* numtri.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5A26A8631D886BC300CC8FE2 /* numtri.cpp */; };
 		5A53C1A61D7CDA17004CE8BC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5A53C1A51D7CDA17004CE8BC /* main.cpp */; };
 		5A6DCC6E1E1B7FCC000E70A3 /* concom.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5A6DCC6D1E1B7FCC000E70A3 /* concom.cpp */; };
+		5AB324F01E20B98000A99BEB /* ttwo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5AB324EF1E20B98000A99BEB /* ttwo.cpp */; };
+		5AB324FC1E20D19F00A99BEB /* maze1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5AB324FB1E20D19F00A99BEB /* maze1.cpp */; };
+		5AB325081E21841600A99BEB /* cowtour.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5AB325071E21841600A99BEB /* cowtour.cpp */; };
+		5AB325141E21B87600A99BEB /* comehome.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5AB325131E21B87600A99BEB /* comehome.cpp */; };
 		5AB703B51E135D0C008188A4 /* frac1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5AB703B41E135D0C008188A4 /* frac1.cpp */; };
 		5AB703C31E135DC4008188A4 /* sort3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5AB703C21E135DC4008188A4 /* sort3.cpp */; };
 		5AB703CB1E13631C008188A4 /* holstein.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5AB703CA1E13631C008188A4 /* holstein.cpp */; };
@@ -248,6 +252,42 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		5A6DCC691E1B7FCC000E70A3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		5AB324EB1E20B98000A99BEB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		5AB324F71E20D19F00A99BEB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		5AB325031E21841600A99BEB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		5AB3250F1E21B87600A99BEB /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -497,6 +537,18 @@
 		5A6DCC6B1E1B7FCC000E70A3 /* Controlling Companies */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Controlling Companies"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A6DCC6D1E1B7FCC000E70A3 /* concom.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = concom.cpp; sourceTree = "<group>"; };
 		5A6DCC721E1B7FF6000E70A3 /* concom.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = concom.txt; sourceTree = "<group>"; };
+		5AB324ED1E20B98000A99BEB /* The Tamworth Two */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "The Tamworth Two"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AB324EF1E20B98000A99BEB /* ttwo.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ttwo.cpp; sourceTree = "<group>"; };
+		5AB324F41E20B9FE00A99BEB /* ttwo.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ttwo.txt; sourceTree = "<group>"; };
+		5AB324F91E20D19F00A99BEB /* Overfencing */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Overfencing; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AB324FB1E20D19F00A99BEB /* maze1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = maze1.cpp; sourceTree = "<group>"; };
+		5AB325001E20D1BB00A99BEB /* maze1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = maze1.txt; sourceTree = "<group>"; };
+		5AB325051E21841600A99BEB /* Cow Tours */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Cow Tours"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AB325071E21841600A99BEB /* cowtour.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = cowtour.cpp; sourceTree = "<group>"; };
+		5AB3250C1E21843800A99BEB /* cowtour.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cowtour.txt; sourceTree = "<group>"; };
+		5AB325111E21B87600A99BEB /* Bessie Come Home */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Bessie Come Home"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AB325131E21B87600A99BEB /* comehome.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = comehome.cpp; sourceTree = "<group>"; };
+		5AB325181E21B89600A99BEB /* comehome.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = comehome.txt; sourceTree = "<group>"; };
 		5AB703921E132E28008188A4 /* frac1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = frac1; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AB7039E1E13444F008188A4 /* sort3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = sort3; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AB703AA1E135C8C008188A4 /* Ordered Fractions */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Ordered Fractions"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -704,6 +756,34 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		5A6DCC681E1B7FCC000E70A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AB324EA1E20B98000A99BEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AB324F61E20D19F00A99BEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AB325021E21841600A99BEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AB3250E1E21B87600A99BEB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1077,6 +1157,10 @@
 				5AB704291E19AA62008188A4 /* Zero Sum */,
 				5AB704351E19B802008188A4 /* Money Systems */,
 				5A6DCC6C1E1B7FCC000E70A3 /* Controlling Companies */,
+				5AB324EE1E20B98000A99BEB /* The Tamworth Two */,
+				5AB324FA1E20D19F00A99BEB /* Overfencing */,
+				5AB325061E21841600A99BEB /* Cow Tours */,
+				5AB325121E21B87600A99BEB /* Bessie Come Home */,
 				5A53C1A31D7CDA17004CE8BC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -1125,6 +1209,10 @@
 				5AB704281E19AA62008188A4 /* Zero Sum */,
 				5AB704341E19B802008188A4 /* Money Systems */,
 				5A6DCC6B1E1B7FCC000E70A3 /* Controlling Companies */,
+				5AB324ED1E20B98000A99BEB /* The Tamworth Two */,
+				5AB324F91E20D19F00A99BEB /* Overfencing */,
+				5AB325051E21841600A99BEB /* Cow Tours */,
+				5AB325111E21B87600A99BEB /* Bessie Come Home */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1144,6 +1232,42 @@
 				5A6DCC6D1E1B7FCC000E70A3 /* concom.cpp */,
 			);
 			path = "Controlling Companies";
+			sourceTree = "<group>";
+		};
+		5AB324EE1E20B98000A99BEB /* The Tamworth Two */ = {
+			isa = PBXGroup;
+			children = (
+				5AB324F41E20B9FE00A99BEB /* ttwo.txt */,
+				5AB324EF1E20B98000A99BEB /* ttwo.cpp */,
+			);
+			path = "The Tamworth Two";
+			sourceTree = "<group>";
+		};
+		5AB324FA1E20D19F00A99BEB /* Overfencing */ = {
+			isa = PBXGroup;
+			children = (
+				5AB325001E20D1BB00A99BEB /* maze1.txt */,
+				5AB324FB1E20D19F00A99BEB /* maze1.cpp */,
+			);
+			path = Overfencing;
+			sourceTree = "<group>";
+		};
+		5AB325061E21841600A99BEB /* Cow Tours */ = {
+			isa = PBXGroup;
+			children = (
+				5AB3250C1E21843800A99BEB /* cowtour.txt */,
+				5AB325071E21841600A99BEB /* cowtour.cpp */,
+			);
+			path = "Cow Tours";
+			sourceTree = "<group>";
+		};
+		5AB325121E21B87600A99BEB /* Bessie Come Home */ = {
+			isa = PBXGroup;
+			children = (
+				5AB325181E21B89600A99BEB /* comehome.txt */,
+				5AB325131E21B87600A99BEB /* comehome.cpp */,
+			);
+			path = "Bessie Come Home";
 			sourceTree = "<group>";
 		};
 		5AB703AB1E135C8C008188A4 /* Ordered Fractions */ = {
@@ -1684,6 +1808,74 @@
 			productReference = 5A6DCC6B1E1B7FCC000E70A3 /* Controlling Companies */;
 			productType = "com.apple.product-type.tool";
 		};
+		5AB324EC1E20B98000A99BEB /* The Tamworth Two */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AB324F31E20B98000A99BEB /* Build configuration list for PBXNativeTarget "The Tamworth Two" */;
+			buildPhases = (
+				5AB324E91E20B98000A99BEB /* Sources */,
+				5AB324EA1E20B98000A99BEB /* Frameworks */,
+				5AB324EB1E20B98000A99BEB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "The Tamworth Two";
+			productName = "The Tamworth Two";
+			productReference = 5AB324ED1E20B98000A99BEB /* The Tamworth Two */;
+			productType = "com.apple.product-type.tool";
+		};
+		5AB324F81E20D19F00A99BEB /* Overfencing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AB324FD1E20D19F00A99BEB /* Build configuration list for PBXNativeTarget "Overfencing" */;
+			buildPhases = (
+				5AB324F51E20D19F00A99BEB /* Sources */,
+				5AB324F61E20D19F00A99BEB /* Frameworks */,
+				5AB324F71E20D19F00A99BEB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Overfencing;
+			productName = Overfencing;
+			productReference = 5AB324F91E20D19F00A99BEB /* Overfencing */;
+			productType = "com.apple.product-type.tool";
+		};
+		5AB325041E21841600A99BEB /* Cow Tours */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AB325091E21841600A99BEB /* Build configuration list for PBXNativeTarget "Cow Tours" */;
+			buildPhases = (
+				5AB325011E21841600A99BEB /* Sources */,
+				5AB325021E21841600A99BEB /* Frameworks */,
+				5AB325031E21841600A99BEB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cow Tours";
+			productName = "Cow Tours";
+			productReference = 5AB325051E21841600A99BEB /* Cow Tours */;
+			productType = "com.apple.product-type.tool";
+		};
+		5AB325101E21B87600A99BEB /* Bessie Come Home */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AB325151E21B87600A99BEB /* Build configuration list for PBXNativeTarget "Bessie Come Home" */;
+			buildPhases = (
+				5AB3250D1E21B87600A99BEB /* Sources */,
+				5AB3250E1E21B87600A99BEB /* Frameworks */,
+				5AB3250F1E21B87600A99BEB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bessie Come Home";
+			productName = "Bessie Come Home";
+			productReference = 5AB325111E21B87600A99BEB /* Bessie Come Home */;
+			productType = "com.apple.product-type.tool";
+		};
 		5AB703911E132E28008188A4 /* frac1 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5AB703981E132E28008188A4 /* Build configuration list for PBXNativeTarget "frac1" */;
@@ -2073,6 +2265,22 @@
 						CreatedOnToolsVersion = 8.2;
 						ProvisioningStyle = Automatic;
 					};
+					5AB324EC1E20B98000A99BEB = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					5AB324F81E20D19F00A99BEB = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					5AB325041E21841600A99BEB = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					5AB325101E21B87600A99BEB = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
 					5AB703911E132E28008188A4 = {
 						CreatedOnToolsVersion = 8.2;
 						ProvisioningStyle = Automatic;
@@ -2199,6 +2407,10 @@
 				5AB704271E19AA62008188A4 /* Zero Sum */,
 				5AB704331E19B802008188A4 /* Money Systems */,
 				5A6DCC6A1E1B7FCC000E70A3 /* Controlling Companies */,
+				5AB324EC1E20B98000A99BEB /* The Tamworth Two */,
+				5AB324F81E20D19F00A99BEB /* Overfencing */,
+				5AB325041E21841600A99BEB /* Cow Tours */,
+				5AB325101E21B87600A99BEB /* Bessie Come Home */,
 			);
 		};
 /* End PBXProject section */
@@ -2385,6 +2597,38 @@
 			buildActionMask = 2147483647;
 			files = (
 				5A6DCC6E1E1B7FCC000E70A3 /* concom.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AB324E91E20B98000A99BEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AB324F01E20B98000A99BEB /* ttwo.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AB324F51E20D19F00A99BEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AB324FC1E20D19F00A99BEB /* maze1.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AB325011E21841600A99BEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AB325081E21841600A99BEB /* cowtour.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AB3250D1E21B87600A99BEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AB325141E21B87600A99BEB /* comehome.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2966,6 +3210,94 @@
 			name = Debug;
 		};
 		5A6DCC701E1B7FCC000E70A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5AB324F11E20B98000A99BEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5AB324F21E20B98000A99BEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5AB324FE1E20D19F00A99BEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5AB324FF1E20D19F00A99BEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5AB3250A1E21841600A99BEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5AB3250B1E21841600A99BEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5AB325161E21B87600A99BEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5AB325171E21B87600A99BEB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -3573,6 +3905,39 @@
 			buildConfigurations = (
 				5A6DCC6F1E1B7FCC000E70A3 /* Debug */,
 				5A6DCC701E1B7FCC000E70A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AB324F31E20B98000A99BEB /* Build configuration list for PBXNativeTarget "The Tamworth Two" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AB324F11E20B98000A99BEB /* Debug */,
+				5AB324F21E20B98000A99BEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5AB324FD1E20D19F00A99BEB /* Build configuration list for PBXNativeTarget "Overfencing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AB324FE1E20D19F00A99BEB /* Debug */,
+				5AB324FF1E20D19F00A99BEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5AB325091E21841600A99BEB /* Build configuration list for PBXNativeTarget "Cow Tours" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AB3250A1E21841600A99BEB /* Debug */,
+				5AB3250B1E21841600A99BEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5AB325151E21B87600A99BEB /* Build configuration list for PBXNativeTarget "Bessie Come Home" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AB325161E21B87600A99BEB /* Debug */,
+				5AB325171E21B87600A99BEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
