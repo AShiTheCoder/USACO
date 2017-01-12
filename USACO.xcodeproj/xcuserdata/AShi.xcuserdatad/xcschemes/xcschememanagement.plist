@@ -74,6 +74,11 @@
 			<key>orderHint</key>
 			<integer>9</integer>
 		</dict>
+		<key>Fractions to Decimals.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>43</integer>
+		</dict>
 		<key>Friday the Thirteenth.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -364,6 +369,11 @@
 			<true/>
 		</dict>
 		<key>5A26A8601D886BC200CC8FE2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5A3257941E2738E400BA08C8</key>
 		<dict>
 			<key>primary</key>
 			<true/>

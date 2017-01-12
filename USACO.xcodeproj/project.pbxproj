@@ -28,6 +28,7 @@
 		5A26A84A1D8676A500CC8FE2 /* skidesign.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5A26A8481D8676A500CC8FE2 /* skidesign.cpp */; };
 		5A26A84D1D8676B100CC8FE2 /* ariprog.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5A26A84B1D8676B100CC8FE2 /* ariprog.cpp */; };
 		5A26A8641D886BC300CC8FE2 /* numtri.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5A26A8631D886BC300CC8FE2 /* numtri.cpp */; };
+		5A3257981E2738E400BA08C8 /* fracdec.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5A3257971E2738E400BA08C8 /* fracdec.cpp */; };
 		5A53C1A61D7CDA17004CE8BC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5A53C1A51D7CDA17004CE8BC /* main.cpp */; };
 		5A6DCC6E1E1B7FCC000E70A3 /* concom.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5A6DCC6D1E1B7FCC000E70A3 /* concom.cpp */; };
 		5AB324F01E20B98000A99BEB /* ttwo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5AB324EF1E20B98000A99BEB /* ttwo.cpp */; };
@@ -234,6 +235,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		5A26A85F1D886BC200CC8FE2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		5A3257931E2738E400BA08C8 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -532,6 +542,9 @@
 		5A26A8611D886BC200CC8FE2 /* Number Triangles */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Number Triangles"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A26A8631D886BC300CC8FE2 /* numtri.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = numtri.cpp; sourceTree = "<group>"; };
 		5A26A8681D886C3B00CC8FE2 /* numtri.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = numtri.txt; sourceTree = "<group>"; };
+		5A3257951E2738E400BA08C8 /* Fractions to Decimals */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Fractions to Decimals"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A3257971E2738E400BA08C8 /* fracdec.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = fracdec.cpp; sourceTree = "<group>"; };
+		5A32579C1E27391100BA08C8 /* fracdec.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = fracdec.txt; sourceTree = "<group>"; };
 		5A53C1A21D7CDA17004CE8BC /* USACO */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = USACO; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A53C1A51D7CDA17004CE8BC /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		5A6DCC6B1E1B7FCC000E70A3 /* Controlling Companies */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Controlling Companies"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -742,6 +755,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		5A26A85E1D886BC200CC8FE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A3257921E2738E400BA08C8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1115,6 +1135,15 @@
 			path = "Number Triangles";
 			sourceTree = "<group>";
 		};
+		5A3257961E2738E400BA08C8 /* Fractions to Decimals */ = {
+			isa = PBXGroup;
+			children = (
+				5A32579C1E27391100BA08C8 /* fracdec.txt */,
+				5A3257971E2738E400BA08C8 /* fracdec.cpp */,
+			);
+			path = "Fractions to Decimals";
+			sourceTree = "<group>";
+		};
 		5A53C1991D7CDA17004CE8BC = {
 			isa = PBXGroup;
 			children = (
@@ -1161,6 +1190,7 @@
 				5AB324FA1E20D19F00A99BEB /* Overfencing */,
 				5AB325061E21841600A99BEB /* Cow Tours */,
 				5AB325121E21B87600A99BEB /* Bessie Come Home */,
+				5A3257961E2738E400BA08C8 /* Fractions to Decimals */,
 				5A53C1A31D7CDA17004CE8BC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -1213,6 +1243,7 @@
 				5AB324F91E20D19F00A99BEB /* Overfencing */,
 				5AB325051E21841600A99BEB /* Cow Tours */,
 				5AB325111E21B87600A99BEB /* Bessie Come Home */,
+				5A3257951E2738E400BA08C8 /* Fractions to Decimals */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1774,6 +1805,23 @@
 			productReference = 5A26A8611D886BC200CC8FE2 /* Number Triangles */;
 			productType = "com.apple.product-type.tool";
 		};
+		5A3257941E2738E400BA08C8 /* Fractions to Decimals */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A32579B1E2738E400BA08C8 /* Build configuration list for PBXNativeTarget "Fractions to Decimals" */;
+			buildPhases = (
+				5A3257911E2738E400BA08C8 /* Sources */,
+				5A3257921E2738E400BA08C8 /* Frameworks */,
+				5A3257931E2738E400BA08C8 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fractions to Decimals";
+			productName = "Fractions to Decimals";
+			productReference = 5A3257951E2738E400BA08C8 /* Fractions to Decimals */;
+			productType = "com.apple.product-type.tool";
+		};
 		5A53C1A11D7CDA17004CE8BC /* USACO */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5A53C1A91D7CDA17004CE8BC /* Build configuration list for PBXNativeTarget "USACO" */;
@@ -2258,6 +2306,10 @@
 					5A26A8601D886BC200CC8FE2 = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
+					5A3257941E2738E400BA08C8 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
 					5A53C1A11D7CDA17004CE8BC = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
@@ -2411,6 +2463,7 @@
 				5AB324F81E20D19F00A99BEB /* Overfencing */,
 				5AB325041E21841600A99BEB /* Cow Tours */,
 				5AB325101E21B87600A99BEB /* Bessie Come Home */,
+				5A3257941E2738E400BA08C8 /* Fractions to Decimals */,
 			);
 		};
 /* End PBXProject section */
@@ -2581,6 +2634,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				5A26A8641D886BC300CC8FE2 /* numtri.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A3257911E2738E400BA08C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A3257981E2738E400BA08C8 /* fracdec.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3099,6 +3160,28 @@
 		5A26A8671D886BC300CC8FE2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5A3257991E2738E400BA08C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5A32579A1E2738E400BA08C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -3882,6 +3965,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		5A32579B1E2738E400BA08C8 /* Build configuration list for PBXNativeTarget "Fractions to Decimals" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A3257991E2738E400BA08C8 /* Debug */,
+				5A32579A1E2738E400BA08C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		5A53C19D1D7CDA17004CE8BC /* Build configuration list for PBXProject "USACO" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -3916,6 +4007,7 @@
 				5AB324F21E20B98000A99BEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5AB324FD1E20D19F00A99BEB /* Build configuration list for PBXNativeTarget "Overfencing" */ = {
 			isa = XCConfigurationList;
@@ -3924,6 +4016,7 @@
 				5AB324FF1E20D19F00A99BEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5AB325091E21841600A99BEB /* Build configuration list for PBXNativeTarget "Cow Tours" */ = {
 			isa = XCConfigurationList;
@@ -3932,6 +4025,7 @@
 				5AB3250B1E21841600A99BEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5AB325151E21B87600A99BEB /* Build configuration list for PBXNativeTarget "Bessie Come Home" */ = {
 			isa = XCConfigurationList;
@@ -3940,6 +4034,7 @@
 				5AB325171E21B87600A99BEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5AB703981E132E28008188A4 /* Build configuration list for PBXNativeTarget "frac1" */ = {
 			isa = XCConfigurationList;
